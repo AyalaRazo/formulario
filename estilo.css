@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+form{
+    width: 100vw;
+    height: 400px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 220px;
+}
+
+input{
+    display: block;
+    margin: auto;
+    width: 800px;
+    margin-top: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+
+input::placeholder{
+    font-size: 17px;
+    text-align: center;
+}
+
+.enviar{
+    width: 150px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 4px;
+}
+
+.ok{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #1e6;
+    color: #fff;
+}
+
+.bad{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #a22;
+    color: #fff;
+}
+
+
